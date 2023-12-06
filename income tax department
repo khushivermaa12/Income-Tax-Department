@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income tax department of India</title>
+    <style>
+         ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            overflow: hidden;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: rgb(17, 85, 51);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Logo_of_Income_Tax_Department_India.png" height="60px" width="80px" alt="Income Tax Department of India Logo">
+        <h1 style="background-color:rgb(17, 85, 51); color:white">Income Tax Department of India</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <section id="welcome">
+            <h2 style="color:rgb(17, 85, 51);">Welcome to income tax department of India</h2>
+            <p>
+                <img src="https://images.moneycontrol.com/static-mcnews/2020/08/EfRXoDBVAAEpQIi.jpg" height="450px" width="1250px"><br>
+                <img src="https://morungexpress.com/uploads/2023/08/93432420_1693052088_cats_XERS5JD.jpg" height="300px" width="600px">
+                <img src="https://images.bhaskarassets.com/web2images/521/2023/07/11/4333_1689069868.jpg" height="300px" width="600px">
+          </p>
+<div style="width:400px; box-shadow: 5px 5px 5px 5px lightgray; border-radius: 10px; padding:20px;">
+    <form style="color:rgb(17, 85, 51);"><h2>Login</h2><br>
+    <label for="username">Username: &nbsp</label>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Password: &nbsp</label>
+    <input type="password" id="password" name="password" required><br>
+    <button type="submit" onclick="alert('Successfully Submitted')">Login</button>
+  </form>
+  </div><br><br>
+</section>
+</main>
+<footer>
+<p>&copy; 2023 Income Tax Department of India</p>
+</footer>
+</body>
+</html>
